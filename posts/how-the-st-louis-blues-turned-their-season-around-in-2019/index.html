@@ -176,7 +176,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>On Jan.&nbsp;3, 2019 The St Louis Blues found themselves in last place in the NHL and were consistently losing games by a wide margin. Fans were beginning to check out. Tickets for late season home games at the time could be found for 15 dollars or less on the resale market. However, the team ended up pulling off one of the most incredible turnarounds in sports history. So, what happened? On Nov 9, The Blues fired their head coach, Mike Yeo, after a 2-0 loss to the LA Kings who at the time were the only team with fewer points than them. The team promoted assistant coach Craig Berube to interim head coach. By early January the Blues had fallen to last place in the league having played almost 50% of their schedule. This is when St.&nbsp;Louis began to climb out of the league’s basement. Lucky enough for the Blues there many of the teams ahead of them in the Western Conference were struggling. By the all-star break they were only 3 points out of a wild card spot. From Jan.&nbsp;20, through Feb.&nbsp;11, St.&nbsp;Louis won 11 games in a row.</p>
+<p>On Jan.&nbsp;3, 2019 The St Louis Blues found themselves in last place in the NHL and were consistently losing games by a wide margin. Fans were beginning to check out. Tickets for late season home games at the time could be found for 15 dollars or less on the resale market. However, the team ended up pulling off one of the most incredible turnarounds in sports history. So, what happened? On Nov 9, The Blues fired their head coach, Mike Yeo, after a 2-0 loss to the LA Kings who at the time were the only team with fewer points than them. The team promoted assistant coach Craig Berube to interim head coach. By early January the Blues had fallen to last place in the league having played almost 50% of their schedule. This is when St.&nbsp;Louis began to climb out of the league’s basement. Lucky enough for the Blues, many of the teams ahead of them in the Western Conference were struggling. By the all-star break they were only 3 points out of a wild card spot. From Jan.&nbsp;20, through Feb.&nbsp;11, St.&nbsp;Louis won 11 games in a row and the playoffs were looking like a possibility again.</p>
 <div class="cell">
 <details>
 <summary>Code</summary>
@@ -270,17 +270,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"From Irrelevant to Relevant"</span>, <span class="at">subtitle=</span><span class="st">"The Blues were in last place in the NHL as late as January of 2019. "</span>, <span class="at">x=</span><span class="st">"Month"</span>, <span class="at">y=</span><span class="st">"Wins"</span>, <span class="at">caption =</span> <span class="st">"Source: Hockey Reference | By Brenden Evers"</span>) <span class="sc">+</span> </span>
 <span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span> </span>
 <span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
-<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">16</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
-<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">8</span>), </span>
-<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size=</span><span class="dv">10</span>), </span>
-<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>()</span>
-<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a>    ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">20</span>, <span class="at">face =</span> <span class="st">"bold"</span>), </span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.subtitle =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">10</span>),</span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">8</span>), </span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a>    <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title.position =</span> <span class="st">"plot"</span></span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a>    ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
 <p><img src="index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
-<p>Much of the credit for the Blues climb back to relevance can be attributed to the success of rookie goaltender Jordan Binnington. In just over 30 regular season starts Binnington posted strong numbers including five shutouts. Binnington also finished the season leading atop the goals against leader board.</p>
+<p>Much of the credit for the Blues climb back to relevance can be attributed to the success of rookie goaltender Jordan Binnington. In just over 30 regular season starts Binnington posted strong numbers including five shutouts. Binnington also finished the season leading atop the goals against leader board. The five shutouts are pretty impressive considering Sergei Bobrovsky and Marc-André Fleury both had more twice as many starts as Binnington.</p>
 <div class="cell">
 <details>
 <summary>Code</summary>
